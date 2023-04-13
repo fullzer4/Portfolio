@@ -11,7 +11,8 @@ const Home: NextComponentType = () => {
                 <h1 className={Style.logo}>Fullzer4</h1>
             </div>
             <div className={Style.box}>
-                
+                <p>Hi there, my name is Gabriel Pelizzaro and Im a</p>
+                <div></div>
             </div> 
             <div className={Style.boxmouse}>
                 <svg width="40px" height="100%" viewBox="0 0 247 390" version="1.1" xmlns="http://www.w3.org/2000/svg" className={Style.mouse}>
