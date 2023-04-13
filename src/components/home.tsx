@@ -11,8 +11,8 @@ const Home: NextComponentType = () => {
         if(path === "FullStack developer"){
             setPath("ML and DL enginnner")
         }else if(path === "ML and DL enginnner"){
-            setPath("Robotics")
-        }else if(path === "Robotics"){
+            setPath("Robotics Engineer")
+        }else if(path === "Robotics Engineer"){
             setPath("FullStack developer")
         }
        },3500)
