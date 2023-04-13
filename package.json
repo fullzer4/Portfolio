@@ -14,12 +14,10 @@
     "@types/react-dom": "18.0.11",
     "eslint": "^8.0.1",
     "eslint-config-next": "13.2.4",
-    "gsap": "^3.11.5",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.60.0",
-    "split-text": "^1.0.0",
     "typescript": "*"
   },
   "devDependencies": {

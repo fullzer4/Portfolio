@@ -1,15 +1,24 @@
 import { NextComponentType } from "next"
 import Style from "@/scss/home.module.scss"
-import { gsap } from "gsap"
+import { useState } from "react"
 
 const Home: NextComponentType = () => {
 
-    const titles:any = gsap.utils.toArray('span')
-    const tl = gsap.timeline()
-    titles.forEach((title:any) => {
-        const text:any = new SplitText(title)
-        console.log(text)
-    })
+    const [path, setPath] = useState("FullStack developer")
+
+    const animation = () => {
+       setTimeout(() => {
+        if(path === "FullStack developer"){
+            setPath("ML and DL enginnner")
+        }else if(path === "ML and DL enginnner"){
+            setPath("Robotics")
+        }else if(path === "Robotics"){
+            setPath("FullStack developer")
+        }
+       },3500)
+    }
+
+    animation()
 
     return(
         <div className={Style.home}>
@@ -17,13 +26,7 @@ const Home: NextComponentType = () => {
                 <h1 className={Style.logo}>Fullzer4</h1>
             </div>
             <div className={Style.Textbox}>
-                <p>Hi there, my name is Gabriel Pelizzaro and Im a 
-                    <div className={Style.Flowbox}>
-                        <span>FullStack developer</span>
-                        <span>ML and DL enginner</span>
-                        <span>Robotics</span>
-                    </div>
-                </p>
+                <p>Hi there, my name is Gabriel Pelizzaro and Im a <span>{path!}</span> </p>
             </div> 
             <div className={Style.boxmouse}>
                 <svg width="40px" height="100%" viewBox="0 0 247 390" version="1.1" xmlns="http://www.w3.org/2000/svg" className={Style.mouse}>

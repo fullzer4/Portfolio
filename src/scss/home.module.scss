@@ -20,21 +20,27 @@
     padding: 25px;
     padding-top: 10px;
 
-    .Textbox{
-        display: flex;
-        width: 35%;
+    .Textbox {
+        display: inline;
+        width: 45%;
         font-family: 'Inter';
-        font-weight: 400;
-        font-size: 1.25em;
+        font-weight: 300;
+        font-size: 2.25vw;
         color: #FFFFFF;
-        .Flowbox{
+        overflow: hidden; /* adicionado para esconder o texto excedente */
+        span {
             display: inline;
-            margin-left: 5px;
-            span{
-                display: inline;
-            }
+            overflow: hidden;
+            border-right: .05em solid #C88981;
+            white-space: nowrap;
+            color: #C88981;
+            margin: 0 auto;
+            width: calc(1.5ch * 40);
+            animation:
+                typing 3.5s infinite,
+                blink-caret .5s step-end infinite;
+            animation-fill-mode: forwards !important;
         }
-
     }
 
     .boxmouse{
@@ -75,4 +81,14 @@
 	30% {
 		transform: translateY(100px);
 	}
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: calc(15.25ch) }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #C88981; }
 }
