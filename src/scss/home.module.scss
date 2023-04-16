@@ -28,18 +28,10 @@
         font-size: 2.25vw;
         color: #FFFFFF;
         overflow: hidden; /* adicionado para esconder o texto excedente */
-        span {
-            display: inline;
-            overflow: hidden;
-            border-right: .05em solid #C88981;
-            white-space: nowrap;
+        b{
             color: #C88981;
-            margin: 0 auto;
-            width: calc(1.5ch * 40);
-            animation:
-                typing 3.5s infinite,
-                blink-caret .5s step-end infinite;
-            animation-fill-mode: forwards !important;
+            font-weight: 300;
+            font-family: 'Inter';
         }
     }
 
