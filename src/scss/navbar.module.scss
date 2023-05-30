@@ -3,4 +3,13 @@
   flex-direction: row;
   width: 100%;
   height: calc(10% - 2rem);
+  align-items: center;
+  justify-content: space-between;
+  padding-left: calc(20% - 2rem);
+  padding-right: calc(20% - 2rem);
+
+  .item{  
+    text-decoration: none;  
+    font-size: calc(5vw + calc(5vh - 1rem));
+  }
 }
