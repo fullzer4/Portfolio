@@ -8,12 +8,10 @@
   padding-left: calc(20% - 2rem);
   padding-right: calc(20% - 2rem);
   .links{
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 70%;    
-
     .item{  
       text-decoration: none;  
       font-size: calc(12px + 0.6vw);
@@ -22,7 +20,6 @@
       color: #FFFFFF;
     }
   }
-
   .logo{
     p{
       font-size: calc(18px + 0.6vw);
