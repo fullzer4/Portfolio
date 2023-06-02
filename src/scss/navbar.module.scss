@@ -12,18 +12,22 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: calc(50% + 2rem);    
+    width: 70%;    
 
     .item{  
       text-decoration: none;  
-      font-size: calc(16px + 0.6vw);
+      font-size: calc(12px + 0.6vw);
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
       color: #FFFFFF;
     }
   }
 
   .logo{
     p{
-      
+      font-size: calc(18px + 0.6vw);
+      font-family: 'Pacifico', cursive;
+      color: #FFFFFF;
     }
   }
 }
