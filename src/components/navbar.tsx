@@ -1,19 +1,12 @@
-import { NextComponentType } from "next"
-import Styles from "../scss/navbar.module.scss"
-import Link from "next/link"
+import "../scss/navbar.scss"
 
-const Navbar: NextComponentType = () => {
+const Navbar = () => {
+  
   return(
-    <div className={Styles.navbar}>
-      <div className={Styles.links}>
-        <Link href="#Home" className={Styles.item}> Home </Link>
-        <Link href="#" className={Styles.item}> About </Link>
-        <Link href="#" className={Styles.item}> Projects </Link>
-        <Link href="#" className={Styles.item}> Talks </Link>
-      </div>
-      <div className={Styles.logo}>
-        <p>Fullzer4</p>
-      </div>
+    <div id="Navbar">
+      <a href="#Projects" className="links" id="l-Projects">Projects</a>
+      <a href="#Articles" className="links" id="l-Articles">Articles</a>
+      <a href="#Contact" className="links" id="l-Contact">Contact</a>
     </div>
   )
 }

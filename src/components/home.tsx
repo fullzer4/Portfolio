@@ -1,12 +1,17 @@
-import { NextComponentType } from "next";
+import "../scss/home.scss"
 
-const home: NextComponentType = () => {
+const Home = () => {
 
   return(
-    <div>
-    
+    <div id="Home">
+      <div className="text-box">
+        
+      </div>
+      <div className="img-box">
+        
+      </div>
     </div>
   )
 }
 
-export default home;
+export default Home
