@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000&family=Pacifico&display=swap');
 
 *{
   box-sizing: border-box;
@@ -8,6 +8,9 @@
 }
 
 #root{
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
+  gap: 5em;
 }

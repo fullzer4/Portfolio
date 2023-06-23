@@ -1,9 +1,35 @@
 #Home {
   
-  .text-box{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: calc(10% - 20px);
+  padding-right: calc(10% - 20px);
+  gap: calc(45% - 20px);
 
+  .text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .title{
+      
+    }
+    .desc{
+
+    }
+    .links-box{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
   }
   .img-box{
-
+    img{
+      height: 22em;
+      border-radius: 100%;
+    }
   }
 }

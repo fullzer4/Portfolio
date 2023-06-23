@@ -1,3 +1,4 @@
+import Home from "./components/home"
 import Navbar from "./components/navbar"
 
 const App = () => {
@@ -5,6 +6,7 @@ const App = () => {
   return (
     <>
       <Navbar/>
+      <Home/>
     </>
   )
 }
