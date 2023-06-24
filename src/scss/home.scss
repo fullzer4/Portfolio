@@ -1,5 +1,5 @@
 #Home {
-  
+  margin-top: 4em;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -7,28 +7,48 @@
   justify-content: space-between;
   padding-left: calc(10% - 20px);
   padding-right: calc(10% - 20px);
-  gap: calc(45% - 20px);
 
   .text-box{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 40%;
     .title{
-      
+      font-size: 2.5em;
+      font-family: Pacifico;
     }
     .desc{
-
+      font-family: Nunito Sans;
+      font-weight: 500; 
     }
     .links-box{
+      width: 65%;
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
+      .contactLink{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        padding: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
+        background-color: #A6BEFA;
+      }
+      .contactLink:hover{
+        cursor: pointer;
+      }
     }
   }
   .img-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
     img{
-      height: 22em;
+      height: 26em;
       border-radius: 100%;
     }
   }
