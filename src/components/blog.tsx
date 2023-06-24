@@ -11,6 +11,10 @@ const Blog = () => {
           <Link/>
           <p> How to create and use node add ons c++ ( Node, C++, Javascript) </p>
         </a>
+        <a href="">
+          <Link/>
+          <p> How to get multi-theard node ( Node, Typescript, Fastify ) </p>
+        </a>
       </section>
     </div>
   )
