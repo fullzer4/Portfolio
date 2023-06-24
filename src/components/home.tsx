@@ -9,7 +9,7 @@ const Home = () => {
     <div id="Home">
       <div className="text-box">
         <h1 className="title">Fullzer4</h1>
-        <p className="desc">Hi im Gabriel pelizzaro (Fullzer4) and i have 17 years and i code since my 9/10 years, now i work as a Fullstack developer / AI & ML enginner.</p>
+        <p className="desc">Hi, I'm Gabriel Pelizzaro (Fullzer4), and I'm 17 years old. I've been coding since I was 9 or 10 years old, and currently, I work as a Fullstack developer and AI & ML engineer.</p>
         <div className="links-box">
           <button className="contactLink">Contact me</button>
           <a href="https://github.com/fullzer4">
