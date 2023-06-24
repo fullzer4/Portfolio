@@ -1,6 +1,6 @@
 import "../scss/navbar.scss"
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   
   return(
     <div id="Navbar">

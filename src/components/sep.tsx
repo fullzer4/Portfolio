@@ -1,6 +1,6 @@
 import "../scss/sep.scss"
 
-const Sep = () => {
+const Sep: React.FC = () => {
 
   return(
     <div className="sep">

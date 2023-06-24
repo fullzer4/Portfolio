@@ -21,6 +21,21 @@
           font-family: Nunito Sans;
           font-weight: 400;
           color: #000;
+          display: inline-block;
+          position: relative;
+        }
+        p::after{
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: -2px;
+          width: 0;
+          height: 2px;
+          background-color: #A6BEFA;
+          transition: width 0.3s;
+        }
+        p:hover::after{
+          width: 100%;
         }
       }
     }

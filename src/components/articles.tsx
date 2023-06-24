@@ -1,7 +1,7 @@
 import "../scss/articles.scss"
 import Link from "./icons/link"
 
-const Articles = () => {
+const Articles: React.FC = () => {
 
   return(
     <div id="Articles">

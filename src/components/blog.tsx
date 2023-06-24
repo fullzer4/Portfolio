@@ -1,7 +1,7 @@
 import "../scss/blog.scss"
 import Link from "./icons/link"
 
-const Blog = () => {
+const Blog: React.FC = () => {
 
   return(
     <div id="Blog">

@@ -1,6 +1,6 @@
 import "../scss/contact.scss"
 
-const Contact = () => {
+const Contact: React.FC = () => {
   
   return(
     <div id="Contact">

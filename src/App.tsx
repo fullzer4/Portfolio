@@ -1,6 +1,7 @@
 import Articles from "./components/articles"
 import Blog from "./components/blog"
 import Contact from "./components/contact"
+import Escola from "./components/escola"
 import Home from "./components/home"
 import Navbar from "./components/navbar"
 import Projects from "./components/projects"
@@ -17,6 +18,7 @@ const App = () => {
       <Blog/>
       <Articles/>
       <Contact/>
+      <Escola/>
     </>
   )
 }

@@ -1,6 +1,6 @@
 import "../scss/projects.scss"
 
-const Projects = () => {
+const Projects: React.FC = () => {
 
   return(
     <div id="Projects">

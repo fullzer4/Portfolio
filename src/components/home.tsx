@@ -3,13 +3,13 @@ import Github from "./icons/github"
 import Instagram from "./icons/instagram"
 import Linkedin from "./icons/linkedin"
 
-const Home = () => {
+const Home: React.FC = () => {
 
   return(
     <div id="Home">
       <div className="text-box">
         <h1 className="title">Fullzer4</h1>
-        <p className="desc">Hi, I'm Gabriel Pelizzaro (Fullzer4), and I'm 17 years old. I've been coding since I was 9 or 10 years old, and currently, I work as a Fullstack developer and AI & ML engineer.</p>
+        <p className="desc">Hi, I'm Gabriel Pelizzaro (Fullzer4), and I'm 17 years old. I've been coding since I was 10 years old, and currently, I work as a Fullstack developer and AI & ML engineer.</p>
         <div className="links-box">
           <button className="contactLink">Contact me</button>
           <a href="https://github.com/fullzer4">
