@@ -12,3 +12,12 @@
     border-radius: 100%;
   }
 }
+
+@media (max-width: 900px) {
+  .sep{
+    width: 80%;
+    hr{
+      width: 100%;
+    }
+  }
+}
