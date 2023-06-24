@@ -1,0 +1,14 @@
+.sep{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 2em;
+    background: radial-gradient(50% 50.00% at 50% 50.00%, #A6BEFA 0%, rgba(217, 217, 217, 0.00) 100%); 
+  hr{
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    border-radius: 100%;
+  }
+}

@@ -1,6 +1,8 @@
+import Articles from "./components/articles"
 import Home from "./components/home"
 import Navbar from "./components/navbar"
 import Projects from "./components/projects"
+import Sep from "./components/sep"
 
 const App = () => {
 
@@ -8,7 +10,9 @@ const App = () => {
     <>
       <Navbar/>
       <Home/>
+      <Sep/>
       <Projects/>
+      <Articles/>
     </>
   )
 }

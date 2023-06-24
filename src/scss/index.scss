@@ -12,4 +12,8 @@
   flex-direction: column;
   width: 100vw;
   gap: 3em;
+  align-items: center;
+  padding-left: calc(10% - 20px);
+  padding-right: calc(10% - 20px);
+  background-color: #F8F5F5;
 }

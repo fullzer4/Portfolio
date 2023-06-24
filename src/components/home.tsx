@@ -24,7 +24,7 @@ const Home = () => {
         </div>
       </div>
       <div className="img-box">
-        <img src="/me.png"/>
+        <img src="/me.png" loading="lazy"/>
       </div>
     </div>
   )
