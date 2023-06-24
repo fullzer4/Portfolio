@@ -1,4 +1,5 @@
 import Articles from "./components/articles"
+import Contact from "./components/contact"
 import Home from "./components/home"
 import Navbar from "./components/navbar"
 import Projects from "./components/projects"
@@ -13,6 +14,7 @@ const App = () => {
       <Sep/>
       <Projects/>
       <Articles/>
+      <Contact/>
     </>
   )
 }

@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000&family=Pacifico&display=swap');
 
+:root {
+  --background: #F8F5F5;
+  --font-size-default: 19px;
+  --title: calc(2 * var(--font-size-default));
+  --subtitle: calc(1.5 * var(--font-size-default));
+  --text: calc(0.8 * var(--font-size-default));
+}
+
 *{
   box-sizing: border-box;
   padding: 0;
@@ -15,5 +23,5 @@
   align-items: center;
   padding-left: calc(10% - 20px);
   padding-right: calc(10% - 20px);
-  background-color: #F8F5F5;
+  background-color: var(--background);
 }
