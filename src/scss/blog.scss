@@ -1,0 +1,28 @@
+#Blog{
+    width: 100%;
+    .subtitles{
+      font-size: var(--subtitle);
+      font-family: Nunito Sans;
+      font-weight: 700; 
+      margin-bottom: 20px;
+    }
+    .b-section{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      a{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        text-decoration: none;
+        p{
+          font-size: var(--text);
+          font-family: Nunito Sans;
+          font-weight: 400;
+          color: #000;
+        }
+      }
+    }
+  }
+  
