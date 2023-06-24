@@ -8,6 +8,10 @@
   --text: calc(0.8 * var(--font-size-default));
 }
 
+html{
+  background-color: var(--background);
+}
+
 *{
   box-sizing: border-box;
   padding: 0;
@@ -23,5 +27,11 @@
   align-items: center;
   padding-left: calc(10% - 20px);
   padding-right: calc(10% - 20px);
-  background-color: var(--background);
+}
+
+@media (max-width: 900px) {
+  html, body, #root{
+    min-width: 100% !important;
+    box-sizing: border-box;
+  }
 }

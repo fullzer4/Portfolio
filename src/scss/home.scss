@@ -55,3 +55,18 @@
     }
   }
 }
+
+
+@media (max-width: 900px) {
+  #Home {
+    flex-direction: column-reverse;
+    padding-left: 0;
+    padding-right: 0;
+    .text-box{
+      width: 90%;
+      .links-box{
+        width: 100%;
+      }
+    }
+  }
+}
