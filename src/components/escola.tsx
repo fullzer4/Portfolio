@@ -1,23 +1,21 @@
-import { useState } from "react"
+import { useState } from "react";
+import "../scss/escola.scss";
 
-const Escola = () => {
-  const [visible, setVisible] = useState("unvisible")
-  
-  const changeState = (cond: string): void => {
-    if (cond === "visible"){
-      setVisible("unvisible")
-    }else{
-      setVisible("visible")
-    }
-  }
+const Escola: React.FC = () => {
+  const [visible, setVisible] = useState(false);
 
-  return(
+  const changeState = () => {
+    setVisible(!visible);
+  };
+
+  return (
     <>
-      <button onClick={() => changeState(visible)}>Escola</button>
-      <div className={visible}>
-      </div>
+      <button className="show" onClick={changeState}>
+        Escola
+      </button>
+      {visible && <div>Conteúdo da Escola</div>}
     </>
-  )
-}
+  );
+};
 
-export default Escola
+export default Escola;
