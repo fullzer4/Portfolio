@@ -1,9 +1,10 @@
-import "../scss/escola.scss";
+import "../../scss/escola.scss";
 
 const Linguagens: React.FC = () => {
 
   return (
     <>
+      <p>Linguagens</p>
     </>
   );
 };

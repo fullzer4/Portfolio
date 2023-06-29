@@ -1,9 +1,10 @@
-import "../scss/escola.scss";
+import "../../scss/escola.scss";
 
 const Humanas: React.FC = () => {
 
   return (
     <>
+      <p>Humanas</p>
     </>
   );
 };
