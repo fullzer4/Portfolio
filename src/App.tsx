@@ -11,14 +11,14 @@ const App = () => {
 
   return (
     <>
-      <Navbar/>
-      <Home/>
-      <Sep/>
-      <Projects/>
-      <Blog/>
-      <Articles/>
-      <Contact/>
-      <Escola/>
+      <Navbar />
+      <Home />
+      <Sep />
+      <Projects />
+      <Blog />
+      <Articles />
+      <Contact />
+      <Escola />
     </>
   )
 }
