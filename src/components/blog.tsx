@@ -9,17 +9,17 @@ const Blog: React.FC = () => {
       <section className="b-section">
         <a href="">
           <Link />
-          <p> Postgres.js the fastest postgres ORM on nodejs? ( Postgres, Node, Typescript, Backend ) </p>
+          <p> Postgres.js the fastest postgres ORM on nodejs? ( Postgres, Node, Typescript, Backend ) - building </p>
         </a>
         <a href="">
           <Link />
-          <p> Using Web Streams on Nuxtjs to process Videos ( Vue, Typescript, Frontend )  </p>
+          <p> Using Web Streams on Nuxtjs to process Videos ( Vue, Typescript, Frontend ) - building </p>
         </a>
         <a href="">
           <Link />
-          <p> How to create and use node add ons using Rust with Neon ( Node, Rust, Backend ) </p>
+          <p> How to create and use node add ons using Rust with Neon ( Node, Rust, Backend ) - building </p>
         </a>
-        <a href="">
+        <a href="https://medium.com/@gabrielpelizzaro/how-to-do-a-rust-graphql-api-with-actix-and-juniper-ea255f261c2b">
           <Link />
           <p> How to do a Rust GraphQL API with Actix and Juniper ( Rust, Graphql, Backend ) </p>
         </a>
