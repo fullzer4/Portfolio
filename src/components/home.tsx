@@ -5,7 +5,7 @@ import Linkedin from "./icons/linkedin"
 
 const Home: React.FC = () => {
 
-  return(
+  return (
     <div id="Home">
       <div className="text-box">
         <h1 className="title">Fullzer4</h1>
@@ -13,18 +13,18 @@ const Home: React.FC = () => {
         <div className="links-box">
           <button className="contactLink">Contact me</button>
           <a href="https://github.com/fullzer4">
-            <Github/>
+            <Github />
           </a>
           <a href="https://www.instagram.com/yfullzer4.exe/">
-            <Instagram/>
+            <Instagram />
           </a>
           <a href="https://www.linkedin.com/in/gabrielpereira-sc/">
-            <Linkedin/>
+            <Linkedin />
           </a>
         </div>
       </div>
       <div className="img-box">
-        <img src="/me.png" loading="lazy"/>
+        <img src="/me.webp" alt="a photo of me" />
       </div>
     </div>
   )
