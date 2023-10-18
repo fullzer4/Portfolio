@@ -8,3 +8,4 @@ services:
             dockerfile: Dockerfile
         ports:
             - 4173:4173
+        network_mode: "host"
