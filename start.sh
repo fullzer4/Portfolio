@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
 _() {
-  yarn
-}
+  podman-compose build
+  podman-compose up -d
+} && _
+
+unset -f _
