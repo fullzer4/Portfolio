@@ -1,9 +1,0 @@
-yarn run v1.22.19
-$ vite preview --host
-  ➜  Local:   https://localhost:4173/
-  ➜  Network: https://192.168.1.100:4173/
-yarn run v1.22.19
-$ vite preview --host
-Port 4173 is in use, trying another one...
-  ➜  Local:   https://localhost:4174/
-  ➜  Network: https://192.168.1.100:4174/
