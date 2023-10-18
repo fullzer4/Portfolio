@@ -7,14 +7,12 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "start": "serve dist"
+    "preview": "vite preview --host"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.63.6",
-    "serve": "^14.2.1"
+    "sass": "^1.63.6"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
@@ -26,6 +24,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
     "typescript": "^5.0.2",
-    "vite": "^4.3.9"
+    "vite": "^4.3.9",
+    "vite-plugin-mkcert": "^1.16.0"
   }
 }
