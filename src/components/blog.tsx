@@ -13,7 +13,7 @@ const Blog: React.FC = () => {
         </a>
         <a href="">
           <Link />
-          <p> Using Web Streams on Nuxtjs to process Videos ( Vue, Typescript, Frontend ) - building </p>
+          <p> Using Web Streams on Nextjs to process Videos ( Nextjs, Typescript, Frontend ) - building </p>
         </a>
         <a href="">
           <Link />
