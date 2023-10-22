@@ -20,15 +20,25 @@ const Projects: React.FC = () => {
           return ReactDOM.createPortal(
             <div id="details">
               <section className="content">
-                <div>
-                  <a href="">Website</a>
-                  <a href="">Repository</a>
-                  <a href="">Article</a>
+                <div className="links">
+                  <a href="http://acustticai.com/" target="_blank">Website</a>
+                  <a href="https://github.com/SenaiFlorianopolisResearchTeam/AcustticAI" target="_blank">Repository</a>
+                  <a href="" target="_blank">Article</a>
                 </div>
                 <div>
-
+                  <p> Technology: </p>
+                  <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
+                  </div>
                 </div>
-                <button onClick={() => closeCard()}>close</button>
+                <button onClick={() => closeCard()}>Close</button>
               </section>
             </div>,
             document.getElementById('root') as HTMLElement
@@ -36,12 +46,41 @@ const Projects: React.FC = () => {
         case 2:
           return ReactDOM.createPortal(
             <div id="details">
+              <section className="content">
+                <div className="links">
+                  <a href="" target='_blank'> Docs </a>
+                  <a href="" target='_blank'> Repository </a>
+                  <a href="" target='_blank'> Linkedin </a>
+                </div>
+                <div>
+                  <p> Technology: </p>
+                  <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/circleci/circleci-plain.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+                  </div>
+                </div>
+                <button onClick={() => closeCard()}> Close </button>
+              </section>
             </div>,
             document.getElementById('root') as HTMLElement
           )
         case 3:
           return ReactDOM.createPortal(
             <div id="details">
+              <section className="content">
+                <div className="links">
+                  <a href="" target='_blank'> Website </a>
+                  <a href="" target='_blank'> Repository </a>
+                  <a href="" target='_blank'> Download </a>
+                </div>
+                <div>
+                </div>
+                <button onClick={() => closeCard()}> Close </button>
+              </section>
             </div>,
             document.getElementById('root') as HTMLElement
           )
