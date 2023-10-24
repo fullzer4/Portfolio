@@ -26,16 +26,13 @@ const Projects: React.FC = () => {
                   <a href="" target="_blank">Article</a>
                 </div>
                 <div>
-                  <p> Technology: </p>
+                  <p> Technologies </p>
                   <div>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
+                    <p> Typescript, React, Next.js, zod, Fastify, python, pyTorch, Flask and Postgres </p>
+                  </div>
+                  <p> Purpose </p>
+                  <div>
+                    <p> Facilitating the extraction of analytical data for road acoustics, easing the scientific realm of acoustics, and assisting researchers with artificial intelligence. </p>
                   </div>
                 </div>
                 <button onClick={() => closeCard()}>Close</button>
@@ -53,15 +50,6 @@ const Projects: React.FC = () => {
                   <a href="" target='_blank'> Linkedin </a>
                 </div>
                 <div>
-                  <p> Technology: </p>
-                  <div>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/circleci/circleci-plain.svg" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
-                  </div>
                 </div>
                 <button onClick={() => closeCard()}> Close </button>
               </section>
