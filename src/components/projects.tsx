@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
                   <a href="https://github.com/SenaiFlorianopolisResearchTeam/AcustticAI" target="_blank">Repository</a>
                   <a href="" target="_blank">Article</a>
                 </div>
-                <div>
+                <div className="about">
                   <p> Technologies </p>
                   <div>
                     <p> Typescript, React, Next.js, zod, Fastify, python, pyTorch, Flask and Postgres </p>
@@ -49,7 +49,15 @@ const Projects: React.FC = () => {
                   <a href="" target='_blank'> Repository </a>
                   <a href="" target='_blank'> Linkedin </a>
                 </div>
-                <div>
+                <div className="about">
+                  <p> Technologies </p>
+                  <div>
+                    <p> Node, Javascript, Typescript, C++, pyTorch, LibTorch </p>
+                  </div>
+                  <p> Purpose </p>
+                  <div>
+                    <p> This framework incorporates LibTorch bindings, allowing PyTorch models to run seamlessly in web environments without the need for conversions. The inspiration for this project arose from numerous conversations with AI developers during IT events. By utilizing Node Addons in C++ for LibTorch binding, jsTorch achieves exceptional efficiency. Moreover, it features a method for Just-In-Time (JIT) compilation of LibTorch with your AI model, resulting in optimal performance and reduced overhead. </p>
+                  </div>
                 </div>
                 <button onClick={() => closeCard()}> Close </button>
               </section>
@@ -65,7 +73,15 @@ const Projects: React.FC = () => {
                   <a href="" target='_blank'> Repository </a>
                   <a href="" target='_blank'> Download </a>
                 </div>
-                <div>
+                <div className="about">
+                  <p> Technologies </p>
+                  <div>
+                    <p> Rust, C++, React, React-Native, Typescript, Tauri, LLM </p>
+                  </div>
+                  <p> Purpose </p>
+                  <div>
+                    <p> Innovative app that empowers users by running large language models offline directly on their devices.  </p>
+                  </div>
                 </div>
                 <button onClick={() => closeCard()}> Close </button>
               </section>

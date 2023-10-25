@@ -111,6 +111,31 @@
         line-height: normal; 
       }
     }
+    .about {
+      display: flex;
+      flex-direction: column;
+      width: 75%;
+      gap: 15px;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      p {
+        margin-top: 10px;
+        color: #000;
+        font-family: Nunito Sans;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; 
+      }
+      div {
+        p {
+          margin: 0;
+          font-size: 0.95rem;
+        }
+      }
+    }
     button {
       cursor: pointer;
       border-radius: 5px;
