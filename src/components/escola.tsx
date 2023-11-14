@@ -63,13 +63,15 @@ const Escola: React.FC = () => {
       <button className="show" onClick={changeState}>
         Escola
       </button>
-      {visible && <div>
-        <button onClick={() => showHumanas()}>humanas</button>
-        <button onClick={() => showLinguagens()}>linguagens</button>
-        <button onClick={() => showMatematica()}>matematica</button>
-        <button onClick={() => showNatureza()}>natureza</button>
-        <button onClick={() => showTecnico()}>tecnico</button>
-        <button onClick={() => showEscolha()}>escolha</button>
+      {visible && <div className="box">
+        <div className="selects">
+          <button className="select" onClick={() => showHumanas()}>humanas</button>
+          <button className="select" onClick={() => showLinguagens()}>linguagens</button>
+          <button className="select" onClick={() => showMatematica()}>matematica</button>
+          <button className="select" onClick={() => showNatureza()}>natureza</button>
+          <button className="select" onClick={() => showTecnico()}>tecnico</button>
+          <button className="select" onClick={() => showEscolha()}>escolha</button>
+        </div>
         <div>
           {humanas && <Humanas/>}
           {linguagens && <Linguagens/>}

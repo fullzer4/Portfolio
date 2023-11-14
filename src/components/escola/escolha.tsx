@@ -5,8 +5,7 @@ const Escolha: FC = () => {
 
   return (
     <>
-      <p>Escolha</p>
-      <div>
+      <div className="links">
         <a href="">Autoria</a>
         <a href="">Resolução de Problemas</a>
         <a href="">Diagnósticos</a>
