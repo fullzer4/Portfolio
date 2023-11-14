@@ -4,8 +4,8 @@ WORKDIR /app
 
 COPY . .
 
-RUN yarn
+RUN npm i
 
-RUN yarn build
+RUN npm run build
 
 CMD ["npm", "run", "preview"]

@@ -5,6 +5,7 @@ import Linguagens from "./escola/linguagens";
 import Matematica from "./escola/matematica";
 import Natureza from "./escola/natureza";
 import Tecnico from "./escola/tecnico";
+import Escolha from "./escola/escolha";
 
 const Escola: React.FC = () => {
   const [visible, setVisible] = useState(false);
@@ -13,6 +14,7 @@ const Escola: React.FC = () => {
   const [matematica, setMatematica] = useState(false)
   const [natureza, setNatureza] = useState(false)
   const [tecnico, setTecnico] = useState(false)
+  const [escolha, setEscolha] = useState(false)
 
   const changeState = () => {
     setVisible(!visible);
@@ -51,6 +53,11 @@ const Escola: React.FC = () => {
     setTecnico(true)
   }
 
+  const showEscolha = () => {
+    falseState()
+    setEscolha(true)
+  }
+
   return (
     <>
       <button className="show" onClick={changeState}>
@@ -62,15 +69,16 @@ const Escola: React.FC = () => {
         <button onClick={() => showMatematica()}>matematica</button>
         <button onClick={() => showNatureza()}>natureza</button>
         <button onClick={() => showTecnico()}>tecnico</button>
+        <button onClick={() => showEscolha()}>escolha</button>
         <div>
           {humanas && <Humanas/>}
           {linguagens && <Linguagens/>}
           {matematica && <Matematica/>}
           {natureza && <Natureza/>}
           {tecnico && <Tecnico/>}
+          {escolha && <Escolha/>}
         </div>
       </div>}
-
     </>
   );
 };
