@@ -26,6 +26,7 @@ const Escola: React.FC = () => {
     setMatematica(false)
     setNatureza(false)
     setTecnico(false)
+    setEscolha(false)
   }
 
   const showHumanas = () => {
@@ -64,6 +65,8 @@ const Escola: React.FC = () => {
         Escola
       </button>
       {visible && <div className="box">
+        <a href="https://drive.google.com/file/d/1Qsd3tteqWJwJBHk4aP0DWDZd-6o8vnHg/view?usp=sharing">Vitae Link</a>
+        <a href="https://docs.google.com/spreadsheets/d/12bnGIgf84keLMCWCypyHLISD89L8_yha-a9CCK6t20g/edit?usp=sharing">Rotina</a>
         <div className="selects">
           <button className="select" onClick={() => showHumanas()}>humanas</button>
           <button className="select" onClick={() => showLinguagens()}>linguagens</button>

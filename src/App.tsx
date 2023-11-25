@@ -17,7 +17,6 @@ const App = () => {
       <Projects />
       <Blog />
       <Articles />
-      <Contact />
       <Escola />
     </>
   )
